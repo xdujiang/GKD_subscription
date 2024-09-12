@@ -16,6 +16,7 @@ export default defineGkdGlobalGroups([
     actionMaximum: 1,
     resetMatch: 'app',
     actionMaximumKey: 0,
+    matchAnyApp: false,
     rules: [
       {
         key: 0,
@@ -60,6 +61,7 @@ export default defineGkdGlobalGroups([
     matchTime: 10000,
     actionMaximum: 1,
     resetMatch: 'app',
+    matchAnyApp: false,
     rules: [
       {
         key: 0,
@@ -84,6 +86,7 @@ export default defineGkdGlobalGroups([
     matchTime: 10000,
     actionMaximum: 1,
     resetMatch: 'app',
+    matchAnyApp: false,
     rules: [
       {
         key: 0,
