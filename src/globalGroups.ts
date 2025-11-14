@@ -15,6 +15,7 @@ export default defineGkdGlobalGroups([
     matchTime: 10000,
     actionMaximum: 2,
     resetMatch: 'app',
+    matchAnyApp: false,
     actionCdKey: 0,
     actionMaximumKey: 0,
     priorityTime: 10000,
@@ -78,6 +79,7 @@ export default defineGkdGlobalGroups([
     matchTime: 10000,
     actionMaximum: 1,
     resetMatch: 'app',
+    matchAnyApp: false,
     disableIfAppGroupMatch: '更新提示',
     rules: [
       {
@@ -119,6 +121,7 @@ export default defineGkdGlobalGroups([
     matchTime: 10000,
     actionMaximum: 1,
     resetMatch: 'app',
+    matchAnyApp: false,
     disableIfAppGroupMatch: '青少年模式',
     rules: [
       {
